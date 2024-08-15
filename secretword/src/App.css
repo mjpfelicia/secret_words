@@ -1,0 +1,30 @@
+:root {
+  --button-background: #1646a0;
+  --button-hover-background: #0923af;
+  --branco: #fff;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+button {
+  background: var(--button-background);
+  color: var(--branco);
+  padding: 0 45px;
+  border: 2px solid var(--branco);
+  border-radius: 25px;
+  height: 50px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: .4s;
+}
+
+button:hover {
+  background-color:var(--button-hover-background) ;
+}
